@@ -10,9 +10,11 @@ auf der Basis von Oberarm-und Oberschenkelknochenmessungen. Berechnungsformel na
 (Anmerkung: Inzwischen nicht mehr ganz up-to-date, aber gut als Einstieg).
 
 1.2.2019: Ordner Taxonomy hinzugefügt. Übung zum Thema Vererbung mittels "extends", unter Verwendung von Booleans.
+
 6.2.2019: Ordner eurodollarcalc hinzugefügt. Übung zum Thema Fenster, Textfelder und Buttons. Noch zu Erweitern.
 
 18.5.2019: Fibonacci hinzugefügt. Aufgabe: Berechnung der Fibonacci-Reihe bis zu einem vom Nutzer bestimmten Limit. Hab ich
 geschrieben, weil mir der Ansatz von Kai Günster in seinem Buch "Einführung in Java" nicht gefiel.
+
 27.5.2019: Fibonacci überarbeitet. Die primitiven Typen der Variablen von int auf long geändert, um Probleme bei hohen Fibonacci-
 Zahlen zu vermeiden.
