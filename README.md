@@ -14,3 +14,5 @@ auf der Basis von Oberarm-und Oberschenkelknochenmessungen. Berechnungsformel na
 
 18.5.2019: Fibonacci hinzugefügt. Aufgabe: Berechnung der Fibonacci-Reihe bis zu einem vom Nutzer bestimmten Limit. Hab ich
 geschrieben, weil mir der Ansatz von Kai Günster in seinem Buch "Einführung in Java" nicht gefiel.
+27.5.2019: Fibonacci überarbeitet. Die primitiven Typen der Variablen von int auf long geändert, um Probleme bei hohen Fibonacci-
+Zahlen zu vermeiden.
