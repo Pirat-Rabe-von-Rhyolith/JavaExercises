@@ -52,7 +52,7 @@ public class Fibonacci {
     }
 
     /**
-     * Übernimmt die Berechnung der Fibonacci-Folge bis zum eingegebenen Wert n.
+    * Übernimmt die Berechnung der Fibonacci-Folge bis zum eingegebenen Wert n.
      * n sollte vom primitiven Typ Long sein. Für diesen Hinweis geht Dank an Reza Unesshaad.
      * Für die drei Variablen für die Berechnung der Fibonacci-Reihe selber (x,y,z) wurden 
      * BigInteger genommen, um den Berechnungsbereich noch mehr zu erweitern.
@@ -64,12 +64,12 @@ public class Fibonacci {
         BigInteger y = new BigInteger("1");
         BigInteger z;
 
-        System.out.print(x + " " + y + " ");
+        System.out.print(x + " \n" + y + " \n");
 
         do {
             i++;
             z = x.add(y);
-            System.out.print(z + " ");
+            System.out.print(z + " \n");
             x = y;
             y = z;
         } while (i <= (n - 3));
