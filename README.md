@@ -18,3 +18,5 @@ geschrieben, weil mir der Ansatz von Kai Günster in seinem Buch "Einführung in
 
 27.5.2019: Fibonacci überarbeitet. Die primitiven Typen der Variablen von int auf long geändert, um Probleme bei hohen Fibonacci-
 Zahlen zu vermeiden.
+
+16.6.2019: Fibonacci überarbeitet. Für die wichtigsten Variablen BigInteger verwendet, um selbst noch über den Long-Bereich hinauszukommen.
