@@ -53,9 +53,9 @@ public class Fibonacci {
 
     /**
      * Übernimmt die Berechnung der Fibonacci-Folge bis zum eingegebenen Wert n.
-     * n muss vom primitiven Typ Long sein, ebenso die anderen Werte. Für diesen
-     * Hinweis geht Dank an Reza Unesshaad.
-     *
+     * n sollte vom primitiven Typ Long sein. Für diesen Hinweis geht Dank an Reza Unesshaad.
+     * Für die drei Variablen für die Berechnung der Fibonacci-Reihe selber (x,y,z) wurden 
+     * BigInteger genommen, um den Berechnungsbereich noch mehr zu erweitern.
      * @param n
      */
     public static void fibonacci(long n) {
