@@ -1,5 +1,6 @@
 package fibonacci;
 
+import java.math.BigInteger;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -59,15 +60,15 @@ public class Fibonacci {
      */
     public static void fibonacci(long n) {
         long i = 0;
-        long x = 0;
-        long y = 1;
-        long z;
+        BigInteger x = new BigInteger("0");
+        BigInteger y = new BigInteger("1");
+        BigInteger z;
 
         System.out.print(x + " " + y + " ");
 
         do {
             i++;
-            z = x + y;
+            z = x.add(y);
             System.out.print(z + " ");
             x = y;
             y = z;
